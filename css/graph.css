@@ -1,0 +1,34 @@
+body { font-size: 12px; }
+div { margin-top: 10px;}
+
+/* 正方形 */
+#square {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+/* 矩形 */
+#rectangle {
+    width: 200px;
+    height: 100px;
+    background: red;
+}
+
+/* 圆形 */
+#circle {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50px;
+}
+/* 可以使用百分比值(大于50%)，但是低版本的Android不支持 */
+
+/* 椭圆 */
+#oval {
+    width: 200px;
+    height: 100px;
+    background: red;
+    border-radius: 100px / 50px;
+}
+/* 可以使用百分比值(大于50%)，但是低版本的Android不支持 */
